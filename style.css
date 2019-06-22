@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+    /* background-color: rgb(131, 131, 131); */
+  }
+  
+
+  @media (min-width : 500px){
+    .Person{
+      width: 450px;
+    }
+  }
+
+  #Win {
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+    background-color: green;
+  }
+
+  #Lose {
+    color:white;
+    font-size: 30px;
+    font-weight: 20px;
+    background-color: red;
+  }
+
+  
+  #Tie {
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+    background-color: blue;
+  }
+  
+
+.p{
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+}
+.p:hover{
+  border: none;
+  background: #3a7999;
+  color:#f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  }
+  
+
+
+
+.cP {
+  width: 120px;
+  height: 120px;
+}
+.form{
+  margin-bottom:10px; 
+}
+
+.hrefs{
+  text-decoration: none;
+}
+
+.hrefs :hover {
+  border: none;
+       background: #3a7999;
+       color:#f2f2f2;
+       padding: 10px;
+       font-size: 18px;
+       border-radius: 5px;
+       position: relative;
+       box-sizing: border-box;
+       transition: all 500ms ease;
+}
+
+
+#resetbtn {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+} 
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(-360deg);
+  }
+}
